@@ -50,7 +50,8 @@ class NewVisitorTest(unittest.TestCase):
             any(
                 row.text == "1: Buy peacock feathers"
                 for row in rows
-            )
+            ),
+            "new to-do item didnt appear in table",
         )
 
         # There is still a text box inviting her to add another item. She
