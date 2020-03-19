@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6f13e46-1da4-4633-9f2f-3afc115b77fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional_tests/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyryshkinsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyryshkinsite/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,16 +34,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="1156">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#226#253#0" expanded="true" />
                 <element signature="e#244#330#0" expanded="true" />
                 <element signature="e#384#616#0" expanded="true" />
                 <element signature="e#667#864#0" expanded="true" />
                 <element signature="e#926#996#0" expanded="true" />
-                <element signature="e#1050#1295#0" expanded="true" />
                 <element signature="e#1385#1954#0" expanded="true" />
+                <element signature="e#1746#1844#0" expanded="true" />
+                <element signature="e#2050#2282#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,9 +54,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="991">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#306#645#0" expanded="true" />
                 <element signature="e#679#698#0" expanded="true" />
                 <element signature="e#760#1300#0" expanded="true" />
                 <element signature="e#1360#3421#0" expanded="true" />
@@ -59,7 +68,21 @@
                 <element signature="e#2429#2494#0" expanded="true" />
                 <element signature="e#3169#3239#0" expanded="true" />
                 <element signature="e#3951#4002#0" expanded="true" />
-                <element signature="e#4469#4523#0" expanded="true" />
+                <element signature="e#4180#4240#0" expanded="true" />
+                <element signature="e#4465#4519#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tyryshkinsite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#636#1" expanded="true" />
+                <element signature="e#637#669#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,10 +91,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="561">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
               <folding>
                 <element signature="e#143#350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="n#html#0;n#!!top" expanded="true" />
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#tr#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,10 +130,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state>
               <folding>
-                <element signature="n#html#0;n#!!top" expanded="true" />
+                <element signature="n#html#1;n#!!top" expanded="true" />
+                <element signature="n#head#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#form#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#input#0;n#form#0;n#body#0;n#html#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,6 +171,7 @@
       <find>tabl</find>
       <find>row</find>
       <find>for_</find>
+      <find>Item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,14 +184,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tyryshkinsite/urls.py" />
         <option value="$PROJECT_DIR$/tyryshkinsite/settings.py" />
         <option value="$PROJECT_DIR$/functional_tests.py" />
         <option value="$PROJECT_DIR$/lists/models.py" />
+        <option value="$PROJECT_DIR$/functional_tests/tests.py" />
         <option value="$PROJECT_DIR$/lists/views.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/list.html" />
+        <option value="$PROJECT_DIR$/tyryshkinsite/urls.py" />
         <option value="$PROJECT_DIR$/lists/tests.py" />
-        <option value="$PROJECT_DIR$/functional_tests/tests.py" />
       </list>
     </option>
   </component>
@@ -157,9 +203,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1080" />
+    <option name="x" value="540" />
     <option name="width" value="530" />
-    <option name="height" value="1908" />
+    <option name="height" value="1913" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -179,7 +225,17 @@
             <path>
               <item name="tyryshkinsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="tyryshkinsite" type="462c0819:PsiDirectoryNode" />
-              <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tyryshkinsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tyryshkinsite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tyryshkinsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tyryshkinsite" type="462c0819:PsiDirectoryNode" />
+              <item name="tyryshkinsite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,7 +377,7 @@
       <workItem from="1584054731229" duration="1641000" />
       <workItem from="1584088491198" duration="27894000" />
       <workItem from="1584424715641" duration="1142000" />
-      <workItem from="1584455555140" duration="7226000" />
+      <workItem from="1584455555140" duration="10864000" />
     </task>
     <servers />
   </component>
@@ -331,10 +387,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65283000" />
+    <option name="totallyTimeSpent" value="68921000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1080" y="0" width="1080" height="1920" extended-state="6" />
+    <frame x="0" y="0" width="1080" height="1920" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -444,34 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tyryshkinsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#636#1" expanded="true" />
-            <element signature="e#637#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#143#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tyryshkinsite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
@@ -479,16 +507,6 @@
           <folding>
             <element signature="e#0#312#1" expanded="true" />
             <element signature="e#476#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,27 +521,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lists/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#html#1;n#!!top" expanded="true" />
+            <element signature="n#head#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#form#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#input#0;n#form#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="n#html#0;n#!!top" expanded="true" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#tr#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="e#143#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyryshkinsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#636#1" expanded="true" />
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lists/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="1156">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#226#253#0" expanded="true" />
             <element signature="e#244#330#0" expanded="true" />
             <element signature="e#384#616#0" expanded="true" />
             <element signature="e#667#864#0" expanded="true" />
             <element signature="e#926#996#0" expanded="true" />
-            <element signature="e#1050#1295#0" expanded="true" />
             <element signature="e#1385#1954#0" expanded="true" />
+            <element signature="e#1746#1844#0" expanded="true" />
+            <element signature="e#2050#2282#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="991">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#306#645#0" expanded="true" />
             <element signature="e#679#698#0" expanded="true" />
             <element signature="e#760#1300#0" expanded="true" />
             <element signature="e#1360#3421#0" expanded="true" />
@@ -533,7 +612,8 @@
             <element signature="e#2429#2494#0" expanded="true" />
             <element signature="e#3169#3239#0" expanded="true" />
             <element signature="e#3951#4002#0" expanded="true" />
-            <element signature="e#4469#4523#0" expanded="true" />
+            <element signature="e#4180#4240#0" expanded="true" />
+            <element signature="e#4465#4519#0" expanded="true" />
           </folding>
         </state>
       </provider>
