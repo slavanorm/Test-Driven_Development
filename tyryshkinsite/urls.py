@@ -19,6 +19,6 @@ from lists import views
 
 urlpatterns = [
     path("", views.home_page),
-    path("lists/the-1/", views.view_list),
+    path(r"lists/<int:list_id>/", views.view_list),
     path("lists/new", views.new_list),
 ]
