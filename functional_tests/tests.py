@@ -9,15 +9,14 @@ from lists.models import Item, List
 
 
 MAX_WAIT = 10
+Item.objects.all().delete()
+List.objects.all().delete()
 
 
 # !! i have get localhost in setup. tbd fix  on second class creation
 
 
 class NewVisitorTest(unittest.TestCase):
-    Item.objects.all().delete()
-    List.objects.all().delete()
-
     def setUp(self):
         options = Options()
         options.add_argument("--headless")
@@ -121,7 +120,7 @@ class NewVisitorTest(unittest.TestCase):
         # meta/ of edith's is coming through cookies
         self.tearDown()
         self.setUp()
-        self.browser.get("http://localhost:8000/lists/1/")
+        self.browser.get("http://localhost:8000")
 
         # Francis visits the home page.  There is no sign of Edith's
         # list
