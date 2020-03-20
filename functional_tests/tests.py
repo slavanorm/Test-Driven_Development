@@ -1,3 +1,4 @@
+import tvp_traceback
 import unittest
 import time
 from selenium import webdriver
@@ -6,6 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from lists.models import Item, List
 
+
 MAX_WAIT = 10
 
 
@@ -13,6 +15,9 @@ MAX_WAIT = 10
 
 
 class NewVisitorTest(unittest.TestCase):
+    Item.objects.all().delete()
+    List.objects.all().delete()
+
     def setUp(self):
         options = Options()
         options.add_argument("--headless")
@@ -21,9 +26,6 @@ class NewVisitorTest(unittest.TestCase):
             r"C:\Program Files\chromium\Bin\Chrome\chrome.exe"
         )
         self.browser = webdriver.Chrome(chrome_options=options)
-        self.browser.get("http://localhost:8000")
-        Item.objects.all().delete()
-        List.objects.all().delete()
 
     def tearDown(self):
         self.browser.quit()
@@ -48,7 +50,7 @@ class NewVisitorTest(unittest.TestCase):
     def test_can_start_a_list_for_one_user(self):
         # Edith has heard about a cool new online to-do app. She goes
         # to check out its homepage
-        self.browser.get("http://localhost:8000/lists/the-1/")
+        self.browser.get("http://localhost:8000")
         # She notices the page title and header mention to-do lists
         self.assertIn("To-Do", self.browser.title)
         header_text = self.browser.find_element_by_tag_name(
@@ -102,7 +104,7 @@ class NewVisitorTest(unittest.TestCase):
     def test_multiple_users_can_start_lists_at_different_urls(
         self,
     ):
-        self.browser.get("http://localhost:8000/lists/the-1/")
+        self.browser.get("http://localhost:8000")
         # Edith starts a new list
         inputbox = self.browser.find_element_by_id("id_new_item")
         inputbox.send_keys("Buy peacock feathers")
@@ -119,7 +121,7 @@ class NewVisitorTest(unittest.TestCase):
         # meta/ of edith's is coming through cookies
         self.tearDown()
         self.setUp()
-        self.browser.get("http://localhost:8000/lists/the-1/")
+        self.browser.get("http://localhost:8000/lists/1/")
 
         # Francis visits the home page.  There is no sign of Edith's
         # list

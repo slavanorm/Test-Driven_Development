@@ -3,12 +3,14 @@ from django.test import TestCase
 from django.http import HttpRequest
 from lists.models import Item, List
 from lists.views import home_page
+import tvp_traceback
+
+
+Item.objects.all().delete()
+List.objects.all().delete()
 
 
 class HomePageTest(TestCase):
-    def setUp(self):
-        Item.objects.all().delete()
-
     def test_uses_home_template(self):
         response = self.client.get("/")
         self.assertTemplateUsed(response, "home.html")
@@ -75,8 +77,8 @@ class NewListTest(TestCase):
             "/lists/new", data={"item_text": "A new list item"}
         )
 
-        self.assertEqual(Item.objects.count(), 1)
-        new_item = Item.objects.first()
+        self.assertEqual(List.objects.count(), 1)
+        new_item = List.objects.first()
         self.assertEqual(new_item.text, "A new list item")
 
     def test_redirects_after_POST(self):

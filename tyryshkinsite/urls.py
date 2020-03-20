@@ -21,4 +21,6 @@ urlpatterns = [
     path("", views.home_page),
     path(r"lists/<int:list_id>/", views.view_list),
     path("lists/new", views.new_list),
+    # custom
+    path("lists/", views.show_all_lists),
 ]

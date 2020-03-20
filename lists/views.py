@@ -14,8 +14,10 @@ def view_list(request, list_id):
 
 
 def new_list(request):
-    list1 = List.objects.create()
-    Item.objects.create(
-        text=request.POST["item_text"], list=list1
-    )
+    list1 = List.objects.create(text=request.POST["item_text"])
     return redirect(f"/lists/{list1.id}/")
+
+
+def show_all_lists(request):
+    # custom
+    return HttpResponse(List.objects.all().values_list())
