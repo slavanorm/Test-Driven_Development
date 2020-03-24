@@ -6,5 +6,5 @@ urlpatterns = [
     path("new", views.new_list),
     path("<int:list_id>/add_item", views.add_item),
     # custom
-    path("/", views.show_all_lists),
+    path("", views.show_all_lists),
 ]
