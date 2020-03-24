@@ -26,6 +26,8 @@ class NewVisitorTest(unittest.TestCase):
         self.browser = webdriver.Chrome(chrome_options=options)
 
     def tearDown(self):
+
+        self.browser.refresh()
         self.browser.quit()
 
     def wait_for_row_in_list_table(self, row_text):
